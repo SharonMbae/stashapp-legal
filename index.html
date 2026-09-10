@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StashApp — Privacy Policy</title>
+<style>
+  :root { --ink:#0a2540; --muted:#5b6b7c; --line:#e3e8ee; --accent:#006c47; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px 80px;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--ink); background: #fff;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  nav { max-width: 720px; margin: 0 auto 32px; padding-bottom: 16px;
+        border-bottom: 1px solid var(--line); display: flex; gap: 20px; font-size: 14px; }
+  nav a { color: var(--muted); text-decoration: none; font-weight: 600; }
+  nav a:hover { color: var(--accent); }
+  nav a[aria-current="page"] { color: var(--accent); }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h2 { font-size: 22px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  h3 { font-size: 17px; margin: 28px 0 8px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 36px 0; }
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 20px; font-size: 15px; display: block; overflow-x: auto; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; background: #f7f9fc; white-space: nowrap; }
+  code { background: #f0f3f7; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
+  blockquote { margin: 0 0 16px; padding: 12px 16px; background: #f7f9fc;
+               border-left: 3px solid var(--accent); color: var(--muted); }
+  .note { color: var(--muted); font-size: 15px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e6edf3; --muted:#9aa7b4; --line:#2a3540; --accent:#4ade9b; }
+    body { background: #0d1117; }
+    th { background: #161b22; }
+    code, blockquote { background: #161b22; }
+  }
+</style>
+</head>
+<body>
+<nav>
+<a href="index.html" aria-current="page">Privacy Policy</a>
+<a href="terms.html">Terms of Service</a>
+</nav>
+<main>
+<h1>StashApp Privacy Policy</h1>
+<p><strong>Last updated:</strong> 10 September 2026</p>
+<p>StashApp is a personal budgeting app for Android. It helps you split your income into pockets and see what&#x27;s safe to spend. This policy explains what we collect, why, and what we don&#x27;t do with it.</p>
+<p><strong>StashApp never holds or moves your money.</strong> Your money stays in your M-Pesa wallet or your bank account, where it always was. StashApp is a record of what you&#x27;ve decided to do with it — it isn&#x27;t connected to any bank or payment provider, it cannot make a payment on your behalf, and it doesn&#x27;t know your real balance. Everything it shows you is worked out from figures you entered yourself.</p>
+<p>We&#x27;ve written it to describe what the app actually does today, not what it might do one day. If that changes, this page changes with it.</p>
+<p><strong>Who we are.</strong> StashApp is operated by Sharon Mbae, based in Kenya. Questions about this policy or your data: <strong><a href="mailto:info@sharonmbae.vortanafresh.co.ke">info@sharonmbae.vortanafresh.co.ke</a></strong>.</p>
+<hr>
+<h2>What we collect</h2>
+<h3>Information you give us</h3>
+<table>
+<tr><th>What</th><th>Why</th><th>Where it&#x27;s stored</th></tr>
+<tr><td>Phone number</td><td>It&#x27;s how you sign in, and where verification codes go</td><td>Our servers</td></tr>
+<tr><td>Name</td><td>Shown in the app so it feels like yours</td><td>Our servers</td></tr>
+<tr><td>PIN</td><td>Unlocks your account</td><td><strong>Only ever as a hashed value</strong> — see below</td></tr>
+<tr><td>Profile photo <em>(optional)</em></td><td>Shown on your profile</td><td>Our servers, private storage</td></tr>
+<tr><td>Income amount</td><td>Calculates your Safe-to-Spend balance</td><td>Our servers</td></tr>
+<tr><td>Pockets — names, targets, due dates</td><td>The budgets you set up</td><td>Our servers</td></tr>
+<tr><td>Transactions — amounts, dates, descriptions</td><td>Your spending record</td><td>Our servers</td></tr>
+</table>
+<h3>Information created automatically</h3>
+<ul>
+<li><strong>Account identifier</strong> — a random ID linking your data to your account</li>
+<li><strong>Timestamps</strong> — when records were created or changed</li>
+<li><strong>Currency preference</strong> — currently Kenyan Shilling for everyone</li>
+<li><strong>Subscription status</strong> — if you subscribe to Premium, whether it&#x27;s active and when it renews</li>
+</ul>
+<h3>What we do <em>not</em> collect</h3>
+<ul>
+<li><strong>Your PIN.</strong> It&#x27;s converted to a bcrypt hash before storage. We can&#x27;t read it, recover it, or tell you what it is. If you forget it, you reset it.</li>
+<li><strong>Your fingerprint or face.</strong> If you turn on biometric sign-in, your device does the check and tells the app yes or no. Biometric data never reaches the app or our servers.</li>
+<li><strong>Your contacts, location, camera, or microphone.</strong></li>
+<li><strong>Your other text messages.</strong> See below.</li>
+<li><strong>Analytics or usage tracking.</strong> There is no analytics SDK in StashApp. We don&#x27;t record which screens you open, how long you spend in them, or whether you&#x27;ve opened the app at all.</li>
+<li><strong>Crash reports.</strong> Not collected today. If we add crash reporting, this page will say so before it ships.</li>
+<li><strong>Advertising identifiers or device fingerprints.</strong> There is no advertising in StashApp. We don&#x27;t collect your device model, advertising ID, or anything else that could identify your phone, and we don&#x27;t track you across other apps or websites.</li>
+</ul>
+<hr>
+<h2>M-Pesa messages</h2>
+<p>You can add M-Pesa transactions by pasting a confirmation message, or by sharing one to StashApp from your Messages app.</p>
+<p><strong>StashApp does not read your inbox.</strong> It has no permission to, and doesn&#x27;t ask for one. It only ever sees a message you deliberately paste or share.</p>
+<p>When you do, the message is read <strong>on your phone</strong>. Only the extracted amount, date and merchant are saved as a transaction — the message text itself is never uploaded or stored.</p>
+<p class="note">If we later add automatic reading of M-Pesa messages, it will be optional, you&#x27;ll be asked first, and this policy will be updated before it ships.</p>
+<hr>
+<h2>Notifications</h2>
+<p>The bell in the app shows things worth knowing — a pocket due soon, income you logged, a target you&#x27;ve reached. These are worked out <strong>on your phone</strong> from data already in the app.</p>
+<p>StashApp doesn&#x27;t send push notifications. There&#x27;s no device token, and nothing about what you do in the app is sent anywhere in order to produce them.</p>
+<hr>
+<h2>Why we process your data</h2>
+<p>Under Kenya&#x27;s Data Protection Act 2019 (and the GDPR, if you&#x27;re in Europe), we process your data on these bases:</p>
+<ul>
+<li><strong>To provide the service you asked for</strong> — you can&#x27;t have a budgeting app without storing your budget. Covers your account, pockets, transactions and income.</li>
+<li><strong>Security</strong> — hashing PINs and locking accounts after repeated wrong attempts protects you from someone else getting in.</li>
+<li><strong>Your consent</strong> — for optional things like a profile photo or biometric sign-in. You can withdraw it by removing the photo or turning the setting off.</li>
+<li><strong>Legal obligation</strong> — where we&#x27;re required to keep records.</li>
+</ul>
+<p>We do <strong>not</strong> process your data for advertising or profiling, and we do not sell it. Not to anyone, for any price.</p>
+<hr>
+<h2>Who else touches your data</h2>
+<p>We use these providers to run the service. They process data on our instructions and may not use it for their own purposes.</p>
+<table>
+<tr><th>Provider</th><th>What for</th><th>Where</th></tr>
+<tr><td><strong>Supabase</strong></td><td>Database, accounts, file storage</td><td>Ireland (EU)</td></tr>
+<tr><td><strong>Expo</strong></td><td>Building and updating the app</td><td>United States</td></tr>
+<tr><td><strong>RevenueCat + Google Play</strong></td><td>Premium subscriptions, if you subscribe</td><td>United States</td></tr>
+</table>
+<p>When you sign in, a verification code is sent to your phone by an SMS provider. We&#x27;ll name that provider here once it&#x27;s in place.</p>
+<p>All of these providers are outside Kenya, so your data is stored and processed abroad — your account and budget data sits in Ireland. We rely on each provider&#x27;s standard contractual protections for those transfers, as the Data Protection Act 2019 requires.</p>
+<p><strong>Google Play</strong> handles subscription payments. We never see your card details — we only learn whether a subscription is active.</p>
+<hr>
+<h2>How it&#x27;s protected</h2>
+<ul>
+<li>Traffic between the app and our servers is encrypted (HTTPS/TLS).</li>
+<li>Your sign-in session is stored in your device&#x27;s secure hardware store — the Android Keystore — not in ordinary app files.</li>
+<li>Every record is scoped to your account by database-level rules, so one account cannot read another&#x27;s data.</li>
+<li>PINs are bcrypt-hashed. Five wrong attempts locks the account for 15 minutes.</li>
+<li>Profile photos are in private storage, reachable only through a short-lived link issued to you.</li>
+</ul>
+<p>No system is perfectly secure, and we won&#x27;t pretend otherwise. If a breach affects your data, we&#x27;ll notify you and the Office of the Data Protection Commissioner as the law requires.</p>
+<hr>
+<h2>How long we keep it</h2>
+<p>Your data stays while your account exists.</p>
+<p><strong>Delete your account</strong> — Settings → Delete Account — and your profile, pockets, transactions, income and photo are permanently deleted from our servers. This is immediate and cannot be undone. We keep no shadow copy.</p>
+<p>Our database provider keeps rolling backups for a short period, so deleted data may persist in those for up to 7 days before they cycle out.</p>
+<hr>
+<h2>Your rights</h2>
+<p>Under the Data Protection Act 2019 you can:</p>
+<ul>
+<li><strong>See</strong> what we hold about you</li>
+<li><strong>Correct</strong> anything wrong — most of it is editable in the app</li>
+<li><strong>Delete</strong> your account and data, from Settings</li>
+<li><strong>Object to</strong> or <strong>restrict</strong> how we use it</li>
+<li><strong>Take your data elsewhere</strong> in a portable format</li>
+<li><strong>Withdraw consent</strong> for anything optional</li>
+<li><strong>Complain</strong> to the Office of the Data Protection Commissioner (<a href="https://odpc.go.ke">odpc.go.ke</a>) if you think we&#x27;ve mishandled it</li>
+</ul>
+<p>Email <strong><a href="mailto:info@sharonmbae.vortanafresh.co.ke">info@sharonmbae.vortanafresh.co.ke</a></strong> and we&#x27;ll respond within 30 days.</p>
+<hr>
+<h2>Children</h2>
+<p>StashApp isn&#x27;t for under-18s and we don&#x27;t knowingly collect their data. If you believe a child has an account, contact us and we&#x27;ll remove it.</p>
+<hr>
+<h2>Changes</h2>
+<p>If we change this policy we&#x27;ll update the date above and, for anything significant, tell you in the app before it takes effect.</p>
+<hr>
+<h2>Contact</h2>
+<p><strong>Sharon Mbae</strong> — Kenya Email: <strong><a href="mailto:info@sharonmbae.vortanafresh.co.ke">info@sharonmbae.vortanafresh.co.ke</a></strong></p>
+<p>Data Protection Commissioner: <a href="https://odpc.go.ke">odpc.go.ke</a></p>
+<p>See also our <a href="terms.html">Terms of Service</a>, which cover the rules for using StashApp.</p>
+</main>
+</body>
+</html>

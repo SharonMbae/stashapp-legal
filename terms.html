@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StashApp — Terms of Service</title>
+<style>
+  :root { --ink:#0a2540; --muted:#5b6b7c; --line:#e3e8ee; --accent:#006c47; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px 80px;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--ink); background: #fff;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  nav { max-width: 720px; margin: 0 auto 32px; padding-bottom: 16px;
+        border-bottom: 1px solid var(--line); display: flex; gap: 20px; font-size: 14px; }
+  nav a { color: var(--muted); text-decoration: none; font-weight: 600; }
+  nav a:hover { color: var(--accent); }
+  nav a[aria-current="page"] { color: var(--accent); }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h2 { font-size: 22px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  h3 { font-size: 17px; margin: 28px 0 8px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 36px 0; }
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 20px; font-size: 15px; display: block; overflow-x: auto; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; background: #f7f9fc; white-space: nowrap; }
+  code { background: #f0f3f7; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
+  blockquote { margin: 0 0 16px; padding: 12px 16px; background: #f7f9fc;
+               border-left: 3px solid var(--accent); color: var(--muted); }
+  .note { color: var(--muted); font-size: 15px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e6edf3; --muted:#9aa7b4; --line:#2a3540; --accent:#4ade9b; }
+    body { background: #0d1117; }
+    th { background: #161b22; }
+    code, blockquote { background: #161b22; }
+  }
+</style>
+</head>
+<body>
+<nav>
+<a href="index.html">Privacy Policy</a>
+<a href="terms.html" aria-current="page">Terms of Service</a>
+</nav>
+<main>
+<h1>StashApp Terms of Service</h1>
+<p><strong>Last updated:</strong> 10 September 2026</p>
+<p>These are the rules for using StashApp. They&#x27;re a real agreement between you and us, so we&#x27;ve written them to be read rather than skipped.</p>
+<p>By using StashApp you accept these terms. If you don&#x27;t accept them, don&#x27;t use the app — and if you&#x27;ve already started, Settings → Delete Account removes everything.</p>
+<p><strong>Who we are.</strong> StashApp is operated by Sharon Mbae, based in Kenya. Questions: <strong><a href="mailto:info@sharonmbae.vortanafresh.co.ke">info@sharonmbae.vortanafresh.co.ke</a></strong>.</p>
+<hr>
+<h2>What StashApp is</h2>
+<p>StashApp is a budgeting app for Android. You tell it what you earn, you split that into pockets for the things you need to cover, and it shows you what&#x27;s safe to spend on everything else.</p>
+<p>That&#x27;s the whole product. It&#x27;s a planning tool, and it works on the numbers you give it.</p>
+<h3>What StashApp is not</h3>
+<p>This matters more than the rest of this document, so it&#x27;s near the top.</p>
+<ul>
+<li><strong>We are not a bank, and not a payment service.</strong> StashApp never holds, receives, or moves your money. Your money stays in your M-Pesa wallet or your bank account. Nothing you do in StashApp moves a shilling anywhere.</li>
+<li><strong>We are not connected to your accounts.</strong> StashApp has no link to Safaricom, to M-Pesa, or to any bank. It cannot see your real balance, and it cannot make a payment for you.</li>
+<li><strong>This is not financial advice.</strong> Safe-to-Spend is arithmetic on figures you typed in — your income, minus what you set aside. It is not a recommendation, and we are not licensed financial advisers. Decisions about your money are yours.</li>
+</ul>
+<hr>
+<h2>Who can use StashApp</h2>
+<p>You need to be <strong>18 or older</strong>. StashApp handles money and isn&#x27;t built for children.</p>
+<p>One account per person, and the phone number you sign up with should be one you actually control — it&#x27;s how you get back in if you forget your PIN.</p>
+<hr>
+<h2>Your account and your PIN</h2>
+<p>Your PIN is stored as a bcrypt hash. That&#x27;s deliberate, and it has a consequence worth being clear about: <strong>we cannot recover it and we cannot tell you what it is.</strong> If you forget it, you reset it through your phone number. There&#x27;s no other route in, including through us.</p>
+<p>So:</p>
+<ul>
+<li>Keep your PIN to yourself. Anyone holding your unlocked phone and your PIN can see and change your budget.</li>
+<li>Five wrong attempts locks the account for 15 minutes. That&#x27;s protecting you, not punishing you.</li>
+<li>If you think someone else has your PIN, change it in Settings.</li>
+</ul>
+<p>You&#x27;re responsible for what happens under your account. If you lose access to your phone number as well as your PIN, we may not be able to help you recover the account — there&#x27;s no identity check we can run that would be both meaningful and safe.</p>
+<hr>
+<h2>The numbers are yours, and they&#x27;re what you tell us</h2>
+<p>Everything in StashApp is self-reported. Your income, your pocket targets, your transactions — you enter them, or you paste in an M-Pesa message and confirm what we read out of it.</p>
+<p>We don&#x27;t check any of it against a bank, a lender, or Safaricom, because we have no way to. <strong>Wrong figures in means a wrong Safe-to-Spend out</strong>, and the app has no way to notice.</p>
+<p>Two things follow from that:</p>
+<ul>
+<li>Review what the app reads out of a pasted M-Pesa message before you save it. Parsing is a convenience, not a guarantee.</li>
+<li>For anything that actually matters — tax, a dispute, a loan application — rely on your bank statements and M-Pesa records, not on StashApp.</li>
+</ul>
+<hr>
+<h2>Premium</h2>
+<p>Premium is a paid subscription. Some things are worth stating plainly:</p>
+<ul>
+<li><strong>Google Play handles the payment</strong>, not us. The price you see at purchase is the price, in your local currency. We never see your card details.</li>
+<li><strong>It renews automatically</strong> until you cancel, at the interval you chose.</li>
+<li><strong>Cancel through the Play Store</strong>, under Subscriptions — not in StashApp. This is the one people get caught by: <strong>uninstalling the app does not cancel your subscription.</strong> Only Google can stop the billing.</li>
+<li><strong>Refunds follow Google&#x27;s policy.</strong> We can&#x27;t issue them; we have no access to the payment.</li>
+<li><strong>You keep Premium until the period you paid for ends</strong>, including if you cancel on day one.</li>
+<li>If your payment fails, Google retries for a while. You keep access during that window rather than being cut off mid-retry.</li>
+<li>If we change what Premium includes, we&#x27;ll tell you before your next renewal, so you can decide whether to keep it.</li>
+</ul>
+<p>Cancelling Premium doesn&#x27;t delete your data. You keep your account and everything in it; you just lose the paid features.</p>
+<hr>
+<h2>Using it reasonably</h2>
+<p>Don&#x27;t use StashApp to break the law. Beyond that, don&#x27;t:</p>
+<ul>
+<li>try to reach anyone else&#x27;s account or data</li>
+<li>attack, overload, or probe the service</li>
+<li>pull it apart to rebuild or resell it</li>
+<li>automate against it in a way that degrades it for other people</li>
+</ul>
+<p>If you do, we may suspend or close the account. Where we can tell you why, we will.</p>
+<hr>
+<h2>Availability, and changes to the app</h2>
+<p>We&#x27;ll do our best to keep StashApp working, but we don&#x27;t promise it will always be available or always be free of bugs. It&#x27;s software.</p>
+<p>We may change features, add them, or remove them. If a change materially reduces what you&#x27;re paying for, you&#x27;ll hear about it before your next renewal.</p>
+<p>If we ever discontinue StashApp, we&#x27;ll give reasonable notice and time to get your data out before anything is deleted.</p>
+<hr>
+<h2>Ending this</h2>
+<p><strong>You can leave at any time.</strong> Settings → Delete Account removes your profile, pockets, transactions, income and photo from our servers. It&#x27;s immediate and can&#x27;t be undone, so export anything you want to keep first.</p>
+<p><strong>We can close an account</strong> that breaches these terms, or where we&#x27;re required to by law.</p>
+<p>Either way, the sections that should outlive the account — the limits on our liability, and the governing law below — continue to apply.</p>
+<hr>
+<h2>Our responsibility, and its limits</h2>
+<p>We&#x27;ll take reasonable care in running StashApp. But given what the app is — a planning tool working on numbers you supply — there are limits to what we can be answerable for:</p>
+<ul>
+<li>We aren&#x27;t responsible for financial decisions you make, whether or not StashApp informed them.</li>
+<li>We aren&#x27;t responsible for losses caused by figures you entered incorrectly, or by a pasted message the app read wrongly and you saved without checking.</li>
+<li>We aren&#x27;t responsible for your data being lost if you delete your account, or for losses caused by someone else using your PIN.</li>
+</ul>
+<p><strong>Nothing here removes rights you have under Kenyan law.</strong> We&#x27;re not trying to exclude liability for fraud, for death or personal injury caused by negligence, or for anything else the law says can&#x27;t be excluded — and if a clause here conflicts with the Consumer Protection Act 2012 or the Data Protection Act 2019, the law wins and the rest of these terms still stand.</p>
+<hr>
+<h2>Governing law</h2>
+<p>These terms are governed by the laws of Kenya, and disputes go to the courts of Kenya.</p>
+<hr>
+<h2>Changes to these terms</h2>
+<p>We may update these terms. If a change is material, we&#x27;ll tell you in the app before it takes effect, and the date at the top will change.</p>
+<p>If you keep using StashApp after that, you&#x27;re accepting the updated terms. If you&#x27;d rather not, delete your account.</p>
+<hr>
+<h2>Contact</h2>
+<p><strong>Sharon Mbae</strong> — Kenya Email: <strong><a href="mailto:info@sharonmbae.vortanafresh.co.ke">info@sharonmbae.vortanafresh.co.ke</a></strong></p>
+<p>See also our <a href="index.html">Privacy Policy</a>, which covers what we collect, why, and what we don&#x27;t do with it.</p>
+</main>
+</body>
+</html>
